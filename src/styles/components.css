@@ -1,0 +1,123 @@
+.header-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 12em;
+}
+
+.nav-link {
+  padding: 0;
+}
+.nav-item a {
+  padding: 0 0.5rem;
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+:root,
+:host {
+  --grid-tile-size: 6rem !important;
+  --grid-gap-size: 0.5rem !important;
+}
+.tiles {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-gap: var(--grid-gap-size);
+  grid-template-columns: repeat(auto-fill, var(--grid-tile-size));
+  grid-template-rows: repeat(auto-fill, var(--grid-tile-size));
+  padding: var(--grid-gap-size);
+  width: 100%;
+}
+.tiles .tile {
+  width: 100%;
+  height: 100%;
+}
+.tiles > .tile::part(base) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-auto-flow: dense;
+  text-align: center;
+  position: relative;
+  padding: 0.25em;
+}
+.tiles .tile.cols-1 {
+  grid-column: span 1;
+  width: var(--grid-tile-size);
+}
+.tiles .tile.rows-1 {
+  grid-row: span 1;
+  height: var(--grid-tile-size);
+}
+.tiles .tile.cols-2 {
+  grid-column: span 2;
+  width: calc(var(--grid-tile-size) * 2 + var(--grid-gap-size));
+}
+.tiles .tile.rows-2 {
+  grid-row: span 2;
+  height: calc(var(--grid-tile-size) * 2 + var(--grid-gap-size));
+}
+.tiles .tile.cols-3 {
+  grid-column: span 3;
+  width: calc(var(--grid-tile-size) * 3 + var(--grid-gap-size) * 2);
+}
+.tiles .tile.rows-3 {
+  grid-row: span 3;
+  height: calc(var(--grid-tile-size) * 3 + var(--grid-gap-size) * 2);
+}
+.tiles .tile .teaser {
+  font-size: 1.2em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.facet-card {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.facet-card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.header-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 12em;
+  word-wrap: none;
+  white-space: nowrap;
+}
+
+.devenv-badge {
+  margin-right: 0.5rem;
+}
+.sl-toast-stack {
+  bottom: 0;
+  top: auto;
+}

@@ -1,0 +1,96 @@
+{
+  "31337": {
+    "Multicall2": {
+      "address": "0x4CDc373E7788836DA7b93E8E188747CdFE5b1841"
+    },
+    "DiamondLoupeFacet": {
+      "address": "0x7a529290c91B3eb4d226a8122A47AE20513AAAcD"
+    },
+    "OwnershipFacet": {
+      "address": "0x34b8Fc828046f347d5aCdD676e57ED148d5a1689"
+    },
+    "ERC165Facet": {
+      "address": "0x0c700Fdc4137500b8D7629a54f173Dc56826fbA6"
+    },
+    "ConnectorFacet": {
+      "address": "0x9555Ca1ED704e9a7724e0abb8b9073115F590382"
+    },
+    "DappletsFacet": {
+      "address": "0x64197aa9517B59168d31877fA7C0Fac57DEff834"
+    },
+    "DappsFacet": {
+      "address": "0xc517C98a2b474befDB451D6e43707e30Ba1454E9"
+    },
+    "DiamondCutFacet": {
+      "address": "0x483A321868537298f8808D523C62aB2383484455"
+    },
+    "SystemInit": {
+      "address": "0xC5CE494DD5Aa73f6a7A8391183De75f5a9385e8e"
+    },
+    "ClientInit": {
+      "address": "0x9aa89F0884605F8fd32d61FAD440D656bCf98cD9"
+    },
+    "Diamond": {
+      "address": "0x279a89bB9E265432ba2B2b582edc2b83f15f3f5a"
+    },
+    "Installer": {
+      "address": "0x33a628548d91738b89Be6E764ab42D4F4c8Ee5A7"
+    },
+    "OperatorFacet": {
+      "address": "0x995E4251644137C8CB1097D2B3c0381bcBb4Ca06"
+    },
+    "BasicBaseplate": {
+      "address": "0x03417E7412b4859DB6d1b5Ba656Dcc3Fb9aB32c2"
+    },
+    "BasicDiamond": {
+      "address": "0x02d2cd30ef5f9a092894F058392Ca4d31F4827fc"
+    }
+  },
+  "11155111": {
+    "Installer": {
+      "address": "0xd02b492C056A40f8C54A17C4D11bEf518Bd4a28a"
+    },
+    "Diamond": {
+      "address": "0x60984a4FF93B585B0c67AC22eb7938dff7B252bB"
+    },
+    "DiamondLoupeFacet": {
+      "address": "0xCc059413bFa6Cbe4f5BA11f240da960EAE960EaA"
+    },
+    "ERC165Facet": {
+      "address": "0x4Cda1d656e831E285c015417eaba5F902715B2Ab"
+    },
+    "OwnershipFacet": {
+      "address": "0x8EF2bD4DC5d9de353c34071C2FcB6712DfaE755f"
+    },
+    "ConnectorFacet": {
+      "address": "0x18743d54925EC45894DFC55779913a45f1bc3f46"
+    },
+    "DiamondCutFacet": {
+      "address": "0x9835f07ed8c2a2dB39E202a39fd47D91b16cd651"
+    },
+    "ClientInit": {
+      "address": "0x7f8c7FaE8cA99BA04c99Ff0AD666a439f09B49Fc"
+    },
+    "SysUpgradeInit": {
+      "address": "0x00C4164171B63953EF129CD8f19670a40420Cc85"
+    },
+    "SystemInit": {
+      "address": "0xEdcF64Fe71A3AEDe34907A9f319d8A2D670fcfA7"
+    },
+    "Multicall2": {
+      "address": "0xF9fdD0C73b3217cc1eb53593106da2848DDE38C0"
+    },
+    "DappletsFacet": {
+      "address": "0x16301ABC9C5e8ff3F2A67Bc58E3a9CD3156F6c68"
+    },
+    "DappsFacet": {
+      "address": "0x14fDCA3B8fcb3D4731C505550EdFdCE6f7FbeE8E"
+    },
+    "OperatorFacet": {
+      "address": "0x9459829d59C9e830e9AaA7f9e1c058fF547617d6"
+    },
+    "BasicDiamond": {
+      "address": "0xf49CaF4EC2f348dBE027eB41A5AcD8F7E78F4055"
+    }
+  }
+}

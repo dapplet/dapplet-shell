@@ -1,0 +1,16 @@
+{
+  "extends": ["prettier", "eslint:recommended"],
+  "globals": {
+    "React": "readonly"
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
+    }
+  ],
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }],
+    "react/no-array-index-key": 0,
+    "no-undef": 0
+  }
+}

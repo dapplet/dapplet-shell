@@ -1,0 +1,37 @@
+:root,
+:host,
+.sl-theme-dark,
+.sl-theme-light {
+  --sl-font-family: 'Quicksand', sans-serif;
+  --sl-font-sans: 'Quicksand', sans-serif;
+  --sl-font-serif: 'Quicksand', sans-serif;
+  --sl-font-mono: 'Quicksand', sans-serif;
+  --sl-font-weight: 300;
+  --sl-font-size: 1rem;
+  --sl-letter-spacing: 0.067em;
+  --sl-line-height: 1.5;
+  /* ??? */
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.067em;
+  color: var(--sl-color-primary);
+}
+
+/* @font-face {
+  font-family: 'Amalgama';
+  src: local('Amalgama'), url('./Amalgama.ttf') format('truetype');
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand' sans-serif;
+  font-weight: 700;
+  margin: 0;
+}

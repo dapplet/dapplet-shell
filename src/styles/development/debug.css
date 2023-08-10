@@ -1,0 +1,26 @@
+/* debugging */
+
+.bg-red {
+  background-color: #ff0000;
+}
+.bg-green {
+  background-color: #00ff00;
+}
+.bg-blue {
+  background-color: #0000ff;
+}
+.bg-yellow {
+  background-color: #ffff00;
+}
+.border-red {
+  outline: 1px solid #ff0000;
+}
+.border-green {
+  outline: 1px solid #00ff00;
+}
+.border-blue {
+  outline: 1px solid #0000ff;
+}
+.border-yellow {
+  outline: 1px solid #ffff00;
+}
