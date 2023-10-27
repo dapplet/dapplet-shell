@@ -1,8 +1,3 @@
-# DApp Shell for Dapplet Dapps
+To understand the "Shell" concept for microfrontends, check out [piral](https://piral.io).
 
-## Boot up dev env (part 3):
-
-> you should have gone through [part 1](https://github.com/dapplet/contracts) and [part 2](https://github.com/dapplet/interface) already.
-
-1. `yarn install`
-2. `yarn start`
+This empty interface has a `fetch` functiont that gets the dapp contract's ipfs hashes stored in the registry and loads the ipfs hash's js module into the page. This is the foundation for the modular approach. With a proper registry, modules can be attested to, creating a web of information that helps identify trustworthy modules.
